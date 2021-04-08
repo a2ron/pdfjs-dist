@@ -30719,13 +30719,13 @@ var WidgetAnnotation = /*#__PURE__*/function (_Annotation2) {
     data.readOnly = _this4.hasFieldFlag(_util.AnnotationFieldFlag.READONLY);
     data.hidden = _this4._hasFlag(data.annotationFlags, _util.AnnotationFlag.HIDDEN);
 
-    if (data.fieldType === "Sig") {
-      data.fieldValue = null;
+    // if (data.fieldType === "Sig") {
+    //   data.fieldValue = null;
 
-      _this4.setFlags(_util.AnnotationFlag.HIDDEN);
+    //   _this4.setFlags(_util.AnnotationFlag.HIDDEN);
 
-      data.hidden = true;
-    }
+    //   data.hidden = true;
+    // }
 
     return _this4;
   }
